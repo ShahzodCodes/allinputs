@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="/login" method="get">
+
+    <label for="ism">Ismingizni kiriting </label> <br>
+    <input type="text" id="ism" placeholder="Doston" name="ism" required> <br>
+
+    <label for="age">Yoshingizni kiriting</label> <br>
+    <input type="number" id="age" name="age" min="0"> <br>
+
+    <label for="email">Emailingizni kiriting</label> <br>
+    <input type="email" id="email" name="pochta" placeholder="ali@ruf.com" required> <br>
+
+    <label for="parol">Parolingizni kiriting</label> <br>
+    <input type="password" id="parol" placeholder="********" name="parol"> <br>
+
+    <label for="vaqt">Vaqtni kiriting</label> <br>
+    <input type="date" id="vaqt" name="date">
+
+        <input type="time" id="time">
+
+        <input type="datetime-local"> <br>
+          <br>
+    <label for="rang">Rangini Kiriting</label> <br>
+    <input type="color" id="rang" name="color"> <br>
+
+    <label for="manzil">URL manzil</label> <br>
+    <input type="url" id="manzil" name="url" placeholder="https://DeepEnglish.com"> <br>
+
+    <label for="natija">Ko'rsatgichni kiriting</label> <br>
+    <input type="range" id="natija" name="range"> <br>
+
+    <button type="reset">reset</button>
+    <br>
+
+    <input type="checkbox" id="chechked" name="chechked" required>
+    <label for="chechked">Shartlarga roziman</label> <br>
+
+    <input type="radio" id="men" name="gender" value="erkak">
+    <label for="men">Erkak</label> <br>
+
+    <input type="radio" id="women" name="gender" value="ayol">
+    <label for="women">Ayol</label> <br>
+
+<!--        <label for="region">Viloyatningizni tanlang</label> <br>-->
+    <select name="region" id="region">
+        <option disabled selected >Viloyatni tanlang</option>
+        <option value="toshkent"> Toshkent</option>
+        <option value="andijon">Andijon</option>
+        <option value="navoiy">Navoiy</option>
+    </select> <br>
+
+    <label for="file">Fileni tanlang</label> <br>
+    <input type="file" id="file" name="file"> <br>
+
+<!--        <label for="advice">Commit here:</label> <br>-->
+    <textarea name="commit" id="advice" cols="30" rows="10" placeholder="Add commit here"></textarea> <br>
+
+    <button type="submit">Jo'natish</button>
+
+    </form>
+
+
+</body>
+</html>
